@@ -1,4 +1,4 @@
-drop table if exists public.olist_orders_dataset_csv;
+drop table if exists public.olist_order_items_dataset_csv;
 CREATE TABLE public.olist_order_items_dataset_csv (
 	order_id varchar(32) NULL,
 	order_item_id int4 NULL,

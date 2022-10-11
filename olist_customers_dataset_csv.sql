@@ -1,4 +1,4 @@
-drop table if exists public.olist_orders_dataset_csv;
+drop table if exists public.olist_customers_dataset_csv;
 CREATE TABLE public.olist_customers_dataset_csv (
 	customer_id varchar(32) NULL,
 	customer_unique_id varchar(32) NULL,
